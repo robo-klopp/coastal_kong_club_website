@@ -28,11 +28,9 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active nav-icon"><i
                                 class='bx bx-home bx-sm'></i></a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link nav-icon"><i
-                                class='bx bx-user bx-sm'></i></a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link nav-icon"><i
-                                class='bx bx-star bx-sm'></i></a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link nav-icon"><i
+                    <li class="nav__item"><a href="#kong_map" class="nav__link nav-icon"><i
+                                class='bx bx-map bx-sm'></i></a></li>
+                    <li class="nav__item"><a href="#og_kongs" class="nav__link nav-icon"><i
                                 class='bx bx-category bx-sm'></i></a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link nav-icon"><i
                                 class='bx bx-message bx-sm'></i></a></li>
@@ -48,11 +46,8 @@
     <main class="l-main">
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <div class="home__title">
-                    <h2 class="section-title">Kong Map</h2>
-                </div>
-                <iframe class="map" src="assets/html/ckc_map.html" width="1000" height="600"></iframe>
+            <div class="home__img">
+                <img src="assets/img/CKC_logo.png" alt="Profile Image">
             </div>
 
             <div class="home__social">
@@ -64,129 +59,44 @@
                         class='bx bxl-discord'></i></a>
             </div>
 
-            <!-- <div class="home__img">
-                <img src="assets/img/CKC_logo.png" alt="Profile Image">
-            </div> -->
         </section>
 
-        <!--===== ABOUT =====-->
-        <section class="about section " id="about">
-            <h2 class="section-title">About Me</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/img/about.jpeg" alt="">
+        <!--===== KONG MAP =====-->
+        <section class="kong_map bd-grid" id="kong_map">
+            <div class="kong_map__data">
+                <div class="kong_map__title">
+                    <h2 class="section-title">Kong Map</h2>
                 </div>
-
-                <div>
-                    <h2 class="about__subtitle">I'am Fatih</h2>
-                    <p class="about__text">
-                    <ul>
-                        <li style="margin-left: 0.9em;"><i class='bx bx-tag-alt'></i> <b>Birthday:</b> 12 Feb 1999</li>
-                        <li style="margin-left: 0.9em;"><i class='bx bx-tag-alt'></i> <b>City:</b> Bursa, Turkey</li>
-                        <li style="margin-left: 0.9em;"><i class='bx bx-tag-alt'></i> <b>University:</b> Bursa Technical
-                            University</li>
-                        <li style="margin-left: 0.9em;"><i class='bx bx-tag-alt'></i> <b>Departmant:</b> Computer
-                            Engineering</li>
-                        <li style="margin-left: 0.9em;"><i class='bx bx-tag-alt'></i> <b>Degree:</b> Bachelor</li>
-                        <p style="margin-top: 10px;"> Hi! I am Fatih from Turkey. I am web development 
-                            and I want to do this as my future job. The most precious thing in our life is time. 
-                            That's why I love to do something for myself and to improve myself. 
-                            Remember, you can review some of my accounts. (such as GitHub, LinkedIn, Medium)
-
-                        </p>
-                    </ul>
-                    </p>
-                </div>
+                <iframe class="kong_map__img map" src="assets/html/ckc_map.html" width="1000" height="600"></iframe>
             </div>
         </section>
-
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills__container bd-grid">
-
-                <div>
-                    <h2 class="skills__subtitle">My Skills</h2>
-                    <p class="skills__text">
-                        Below you can review which languages ​​I work with and which frameworks I use.</p>
-                    <!-- Start -->
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bx-code-alt skills__icon'></i>
-                            <span class="skills__name">Programming Language<span class="detail_skills">C, PHP, Python, JavaScript, PHP,
-                                    Java</span></span>
-                        </div>
-                    </div>
-                    <!-- End -->
-                    <!-- Start -->
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-python bx-md skills__icon'></i>
-                            <span class="skills__name">Data Science <br><span class="detail_skills"> NumPy, SciPy,
-                                    Pandas, SciKit-Learn, Matplotlib</span></span>
-                        </div>
-
-                    </div>
-                    <!-- End -->
-
-                    <!-- Start -->
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-firefox skills__icon'></i>
-                            <span class="skills__name">Web Development<span
-                                    class="detail_skills">Vue.js, Bootstrap, Tailwind, Laravel, Django, Flask</span></span>
-                        </div>
-
-                    </div>
-                    <!-- End -->
-
-                    <!-- Start -->
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="fas fa-palette  skills__icon"></i>
-                            <span class="skills__name">Design Tools<span class="detail_skills">Photoshop, Illustrator,
-                                    Movavi Video Suite, Camtasia</span></span>
-                        </div>
-                    </div>
-                    <!-- End -->
-                    
-                </div>
-
-                <div>
-                    <img src="assets/img/skills.jpeg" alt="" class="skills__img">
-                </div>
-            </div>
-        </section>
-
-        <!--===== PROJECT =====-->
-        <section class="work section" id="work">
+        <!--===== OG KONGS =====-->
+        <section class="og_kongs section" id="og_kongs">
             <h2 class="section-title">OG Kongs</h2>
 
-            <div class="work__container bd-grid">
+            <div class="og_kongs__container bd-grid">
                 <!-- NEW START-->
-                <div class="work__img ">
+                <div class="og_kongs__img ">
                     <a href="" target="_blank"><img
                             src="assets/kongs/donny_v2.png" alt=""></a>
                     <div class="overlay">
-                        <div class="content">SidTheKid112<br><span class="detail_work"
+                        <div class="content">SidTheKid112<br><span class="detail_og_kongs"
                                 style="text-align: center;">Location: Test</span>
                         </div>
                     </div>
                 </div>
-                <div class="work__img ">
+                <div class="og_kongs__img ">
                     <a href="" target="_blank"><img src="assets/kongs/ddddd.png" alt=""></a>
                     <div class="overlay">
-                        <div class="content">Space Kong Commander<br><span class="detail_work"
+                        <div class="content">Space Kong Commander<br><span class="detail_og_kongs"
                                 style="text-align: center;">Location: Test</span>
                         </div>
                     </div>
                 </div>
-                <div class="work__img ">
+                <div class="og_kongs__img ">
                     <a href="" target="_blank"><img src="assets/kongs/kong_2090.png" alt=""></a>
                     <div class="overlay">
-                        <div class="content">Roboklopp<br><span class="detail_work"
+                        <div class="content">Roboklopp<br><span class="detail_og_kongs"
                                 style="text-align: center;">
                             Location: London <br>
                             Defence: 73 <br>
@@ -199,28 +109,28 @@
                 </div>
                 <!-- NEW END-->
                 <!-- NEW START-->
-                <div class="work__img ">
+                <div class="og_kongs__img ">
                     <a href="" target="_blank"><img
                             src="assets/kongs/chief_monkey_London.png" alt=""></a>
                     <div class="overlay">
-                        <div class="content">Chief Monkey<br><span class="detail_work"
+                        <div class="content">Chief Monkey<br><span class="detail_og_kongs"
                                 style="text-align: center;">Location: London
                                 </span>
                         </div>
                     </div>
                 </div>
-                <div class="work__img ">
+                <div class="og_kongs__img ">
                     <a href="" target="_blank"><img
                             src="assets/kongs/igor_map.png" alt=""></a>
                     <div class="overlay">
-                        <div class="content">IGOR<br><span class="detail_work">Location: Test2</span></div>
+                        <div class="content">IGOR<br><span class="detail_og_kongs">Location: Test2</span></div>
                     </div>
                 </div>
-                <div class="work__img">
+                <div class="og_kongs__img">
                     <a href="" target="_blank"><img
                             src="assets/kongs/manville_London.png" alt=""></a>
                     <div class="overlay">
-                        <div class="content">Manville<br><span class="detail_work">Location: London</span></div>
+                        <div class="content">Manville<br><span class="detail_og_kongs">Location: London</span></div>
                     </div>
                 </div>
                 <!-- NEW END-->
@@ -231,6 +141,12 @@
         <!--===== CONTACT =====-->
         <section class="contact section" id="contact">
             <h2 class="section-title">Contact & Follow Me</h2>
+            <a href="https://twitter.com/coastalkongclub" target="_blank" class="home__social-icon"><i
+                    class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/coastalkongclub/" target="_blank" class="home__social-icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://discord.com/invite/zFTEVezZ" target="_blank" class="home__social-icon"><i
+                    class='bx bxl-discord'></i></a>
 
             <div class="contact__container bd-grid">
                 <div class="wrapper">

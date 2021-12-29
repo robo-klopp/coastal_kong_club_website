@@ -197,6 +197,7 @@ img{
 }
 .home__data{
   align-self: center;
+  padding: 150px;
 }
 .home__title{
   font-size: var(--big-font-size);
@@ -262,18 +263,18 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
-/* ===== ABOUT =====*/
-.about__container{
+/* ===== KONG_MAP =====*/
+.kong_map__container{
   row-gap: 2rem;
   text-align: center;
 }
-.about__subtitle{
+.kong_map__subtitle{
   margin-bottom: var(--mb-2);
 }
-.about__img{
+.kong_map__img{
   justify-self: center;
 }
-.about__img img{
+.kong_map__img img{
   width: 200px;
   border-radius: .5rem;
 }
@@ -318,17 +319,17 @@ img{
   border-radius: .5rem;
 }
 
-/* ===== PROJECTS =====*/
-.work__container{
+/* ===== OG KONGS =====*/
+.og_kongs__container{
   row-gap: 2rem;
 }
-.work__img{
+.og_kongs__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
   
 }
-.work__img img{
+.og_kongs__img img{
   transition: 1s;
   cursor: pointer;
 }
@@ -339,13 +340,13 @@ img{
 .content{
   text-align: center;
 }
-.detail_work{
+.detail_og_kongs{
   display: flex;
   align-items: center;
   font-size: var(--deatil-font-size);
   
 }
-.work__img img:hover {
+.og_kongs__img img:hover {
   transform: scale(1.2);
 }
 
@@ -517,16 +518,16 @@ img{
     bottom: 15%;
   }
 
-  .about__container, .skills__container{
+  .kong_map__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     text-align: initial;
   }
-  .about__img img{
+  .kong_map___img img{
     width: 300px;
   }
-  .work__container{
-    grid-template-columns: repeat(3, 1fr);
+  .og_kongs__container{
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
